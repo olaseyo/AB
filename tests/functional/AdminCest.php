@@ -64,13 +64,5 @@ class AdminFunctionalCest
         $I->seeInCurrentUrl('/User/Index');
         $I->seeInSource('Users List');
     }
-
-    public function canDeleteUser(FunctionalTester $I)
-    {
-        $I->amOnPage('/User/getRecord/');
-        $record = $I->grabTextFrom('.data');
-        $I->amOnPage('/User/destroy/'.base64_encode($record));
-        $I->seeInSource('User deleted succefully');
-    }
     
 }
