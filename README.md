@@ -56,7 +56,7 @@ modules:
     step_decorators: ~   
 ```
 ##Entity Relationship Diagram
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/olaseyo/AB/blob/main/ticketing.png?raw=true)
 
 ## Database Constraints
 
