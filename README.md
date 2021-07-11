@@ -1,12 +1,9 @@
-# potato-orm
+# A&B Booking Console
 
 [![Build Status](https://travis-ci.org/andela-kerinoso/potato-orm.svg)](https://travis-ci.org/andela-kerinoso/potato-orm)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/kola/potato-orm.svg?style=flat-square)](https://packagist.org/packages/kola/potato-orm)
-[![Total Downloads](https://img.shields.io/packagist/dt/kola/potato-orm.svg?style=flat-square)](https://packagist.org/packages/kola/potato-orm)
 
 
-This is an ORM package that manages the persistence of simple database CRUD operations.
+This is a simple transportation booking web app built on top a light MVC framework.
 
 ## Installation
 
@@ -15,7 +12,7 @@ This is an ORM package that manages the persistence of simple database CRUD oper
 Via Composer
 
 ``` bash
-$ composer require kola/potato-orm
+Clone Repo,extract it inside phpmyadmin htdoc folder
 ```
 
 ``` bash
