@@ -1,4 +1,4 @@
-# A&B Booking Console
+# A&D Booking Console
 
 [![Build Status](https://travis-ci.org/andela-kerinoso/potato-orm.svg)](https://travis-ci.org/andela-kerinoso/potato-orm)
 
@@ -19,7 +19,7 @@ $ composer install
 ```
 
 ``` bash
-  Create a database call ticketing
+  Create a database called ticketing
 ```
 
 ``` bash
@@ -34,11 +34,11 @@ define('DB_USER','olumide');
 define('DB_PASSWORD','root');
 define('DATABASE','ticketing');
 define('SERVER','http://localhost:8888');
-define('ASSET', SERVER.'/Ticketing/app/Views');
-define('BASE_URL', SERVER.'/Ticketing');
 ```
 
 ## Usage
+Access project from you localhost menu or follow this pattern:
+host:port/folder_name
 
 ## Testing
 
@@ -56,9 +56,9 @@ modules:
     step_decorators: ~   
 ```
 
-* To run tests
 
-``` bash
-run $php vendor/bin/codecept run
-In the project root directory
-```
+## Supported database
+
+Currently, only MYSQL and PostgreSQL are supported.
+
+Work towards the support for other popular databases is in progress.
