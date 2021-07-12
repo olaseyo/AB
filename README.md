@@ -64,6 +64,4 @@ https://docs.google.com/document/d/1frstXawzeFAscguxtmIYTX-EX6xhiiQ_sMyi8dC9q3s/
 
 ## Supported database
 
-Currently, only MYSQL and PostgreSQL are supported.
-
-Work towards the support for other popular databases is in progress.
+Currently, only MYSQL is supported.
