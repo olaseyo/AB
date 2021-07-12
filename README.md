@@ -44,7 +44,7 @@ host:port/folder_name
 
 
 ``` php
-Update the yml files in the testing directory with your project url
+Update the functional.suite.yml file in the testing directory with your project url
 
 actor: FunctionalTester
 modules:
