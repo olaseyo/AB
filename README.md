@@ -1,8 +1,5 @@
 # A&D Booking Console
 
-[![Build Status](https://travis-ci.org/andela-kerinoso/potato-orm.svg)](https://travis-ci.org/andela-kerinoso/potato-orm)
-
-
 This is a simple transportation booking web app built on top a light MVC framework.
 
 ## Installation
